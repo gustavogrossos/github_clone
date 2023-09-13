@@ -1,0 +1,197 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img{
+    width: 3%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position:  relative; top: 40px;
+}
+
+h1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position:  relative; top: 80px; left: 62px;
+    width: 308px;
+    height: 36px;
+    font-weight: 300;
+    font-size: 25px;
+    
+}   
+.main{
+    display: flex;
+    /*eixo x*/
+    justify-content: center;
+    /*eixo y*/
+    align-items: center;
+    background-color: rgb(255, 255, 255)
+}
+
+.card{
+    position: relative; top:100px;
+    padding: 16px 16px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+    font-size: 14px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 6px;
+    color: rgb(31, 35, 40);
+    background-color: rgb(246, 248, 250);
+    border-bottom-color: rgb(216, 222, 228);
+    border-color: rgb(208, 215, 222);
+    height: 220px;
+    width: 308px;
+}
+
+.text-list{
+    color: rgb(31, 35, 40);
+    box-sizing: border-box;
+    display: block;
+    height: 21px;
+    margin-bottom: 8px;
+    width: 274px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: left;
+    text-size-adjust: 100%;
+    cursor: default;
+    color-scheme: light;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    text-size-adjust: 100%;
+    color: rgb(31, 35, 40)
+}
+
+.textfield > input{
+    box-sizing: border-box;
+    display: block;
+    height: 32px;
+    margin-bottom: 16px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 4px;
+    overflow-x: visible;
+    overflow-y: visible;
+    padding: 5px 12px;
+    font-size: 14px;
+    font-weight: 400px;
+    text-shadow: none;
+    text-align: start;
+    border: solid;
+    border-radius: 6px;
+    border-color: rgb(208, 215, 222);
+    background-color: rgb(255, 255, 255);
+    border-width: 1px;
+    outline: none;
+    
+    width: 274px;
+    color-scheme: light;
+    transition-delay: 0s;
+    transition-duration: 0.08s;
+    transition-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
+}  
+
+input:hover{
+    border-color:blue;
+}
+.btn-login{
+    align-items: flex-start;
+    box-sizing: border-box;
+    display: block;
+    margin-top: 16px;
+    padding: 5px 16px;
+    position: relative;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-align: center;
+    text-indent: 0px;
+    text-shadow: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(31, 136, 61);
+    border: solid;
+    border-width: 1px;
+    cursor: pointer;
+    box-shadow: rgba(31, 35, 40, 0.1) 0px 1px 0px 0px, rgba(255, 255, 255, 0.03) 0px 1px 0px 0px inset;
+    border-radius: 6px;
+    padding-block-end: 5px;
+    width: 274px;
+    height: 32px;
+    font-weight: 500;
+}
+
+.text-list > a{
+    box-sizing: border-box;
+    float: none;
+    position: relative; left: 178px; bottom: 20px;
+    display: block;
+    height: 18px; 
+    width: 94.1875px;
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration-color: rgb(9, 105, 218);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    text-size-adjust: 100%;
+    color: rgb(9, 105, 218);
+    cursor: pointer;
+}
+
+.cardinho{
+    box-sizing: border-box;
+    display: block;
+    height: 55px;
+    margin: 16px;
+    width: 308px;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    text-size-adjust: 100%;
+    color: rgb(31, 35, 40);
+    border-color: rgb(208, 215, 222);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 6px;
+    position: relative; right: 32px; top: 15px;
+}
+
+.text{
+    box-sizing: border-box;
+    display: block;
+    height: 21px;
+    margin: 0px;
+    width: 274px;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    text-size-adjust: 100%;
+    color: rgb(31, 35, 40);
+    position: relative; left: 15px; top: 15px;
+}
+
+.text > a{
+    box-sizing: border-box;
+    display: inline;
+    height: auto;
+    width: auto;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: rgb(9, 105, 218);
+    cursor: pointer;
+    text-decoration: none;
+    text-decoration-style: solid;
+}
+
